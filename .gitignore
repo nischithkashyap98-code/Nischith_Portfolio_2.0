@@ -1,0 +1,76 @@
+# ---------------------------------
+# Nischith_Portfolio_2.0
+# Git ignore for React + Vite + Tailwind + Framer Motion Project
+# ---------------------------------
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+dist-ssr/
+build/
+*.local
+
+# Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+*.tmp
+
+# Cache
+.cache/
+.eslintcache
+*.pid
+
+# Temporary files
+*.bak
+*.tmp
+*.orig
+*.old
+
+# Mac/Windows metadata
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# Optional lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Local Netlify / Vercel build output
+.netlify/
+.vercel/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Build artifacts
+*.tgz
+
+# Ignore local images or backups (keep only assets)
+public/temp/
+public/uploads/
