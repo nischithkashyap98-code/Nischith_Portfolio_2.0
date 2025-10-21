@@ -1,168 +1,185 @@
 
-```markdown
-<!-- Banner -->
+## ✨ **Nischith Portfolio 2.0**
+
+**Software Engineer | DevOps Engineer | Mechanical Innovator**
+
+A next-generation interactive portfolio built with **React + Vite**, styled with **Tailwind CSS**, powered by **Framer Motion** animations, and deployed seamlessly on **Netlify**.
+Elegant dark/light theming, glassmorphism aesthetics, and smooth transitions deliver a futuristic yet minimal experience.
+
+---
+
+### 🚀 **Live Demo**
+
+🔗 [Visit Portfolio Website](https://nischithkashyap.netlify.app/)
+
+---
+
+### 🖼️ **Project Banner**
+
+![Nischith Portfolio 2.0 Banner](./public/assets/banner.png)
+
+---
+
+### 🧰 **Tech Stack & Tools**
+
 <p align="center">
-  <img src="public/assets/banner.png" alt="Nischith Kashyap Portfolio Banner" width="100%" />
+  <img src="https://img.shields.io/badge/React-%2300d8ff.svg?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Framer_Motion-%23E61E6E.svg?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Netlify-%2300C7B7.svg?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
+  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Three.js-%23000000.svg?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
 </p>
 
-<h1 align="center">🚀 Nischith Portfolio 2.0</h1>
-<p align="center">
-  <b>Software Engineer | DevOps Engineer | Mechanical Innovator</b><br/>
-  A futuristic, elegant, and responsive developer portfolio built with <b>React + Vite + Tailwind + Framer Motion</b>.<br/>
-  Designed to make the first impression truly unforgettable.
-</p>
+---
+
+## 🧠 **About the Project**
+
+This portfolio represents the complete skill set and professional journey of **Nischith Kashyap S**.
+Every section is handcrafted with precision — from responsive layouts to immersive project visuals — to deliver an impressive recruiter-first experience.
+
+**Key Highlights**
+
+* ⚡ Built with **React + Vite** for performance and modularity
+* 🎨 Styled using **TailwindCSS** with **glassmorphism** & **gold-black** theme
+* 🎬 Dynamic animations powered by **Framer Motion**
+* 🌗 Custom **light/dark theme toggle** (persistent with local storage)
+* 🧩 Dedicated sections: Hero, About, Skills, Experience, Projects, Certifications, Contact
+* ☁️ Hosted on **Netlify** with continuous deployment from GitHub
 
 ---
 
-## 🖥️ Live Demo
-🌐 **Visit Portfolio:** [nischithkashyap.netlify.app](https://nischithkashyap.netlify.app)
+## 🛠️ **Tech Stack Overview**
+
+| Category            | Technologies                                  |
+| ------------------- | --------------------------------------------- |
+| **Frontend**        | React (Vite), Tailwind CSS, Framer Motion     |
+| **3D & Graphics**   | Three.js, React-Three-Fiber, Drei             |
+| **Deployment**      | Netlify CI/CD                                 |
+| **Version Control** | Git & GitHub                                  |
+| **Design Concepts** | Glassmorphism, Futuristic Glow, Responsive UI |
 
 ---
 
-## ⚡ Tech Stack
-
-| Category | Technologies |
-|-----------|--------------|
-| **Frontend** | React.js, Vite, TailwindCSS, Framer Motion |
-| **3D & Animations** | Three.js, @react-three/fiber, @react-three/drei |
-| **Version Control** | Git, GitHub |
-| **Deployment** | Netlify |
-| **Design Tools** | Figma, Canva |
-
----
-
-## ✨ Features
-
-- 🎨 **Black & Gold Elegant Theme** — A premium dark mode with smooth gold highlights  
-- ⚙️ **Fully Responsive** — Works seamlessly across devices  
-- ⚡ **Framer Motion Animations** — Smooth page transitions and hover effects  
-- 🌗 **Light/Dark Mode Toggle** — Elegant theme switching with persistence  
-- 💾 **Resume Download Button** — Opens your professional PDF instantly  
-- 🧠 **Optimized Projects Section** — Highlights SystemPulse, Contentor, and other key work  
-- 📬 **Contact Form with Mail Link** — One-click “Email Me” feature  
-
----
-
-## 🧩 Folder Structure
+## 📂 **Folder Structure**
 
 ```
-
 Nischith_Portfolio_2.0/
 ├── public/
-│   └── assets/
-│       ├── banner.png
-│       ├── profile.JPG
-│       └── resume.pdf
+│   ├── assets/
+│   │   ├── banner.png
+│   │   ├── profile.jpg
+│   │   ├── resume.pdf
+│   │   └── project-illustrations/
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.jsx
 │   │   ├── Hero.jsx
 │   │   ├── About.jsx
+│   │   ├── SkillsAndEducation.jsx
+│   │   ├── Experience.jsx
 │   │   ├── Projects.jsx
+│   │   ├── Certification.jsx
 │   │   ├── Contact.jsx
 │   │   ├── Footer.jsx
 │   │   └── ThemeToggle.jsx
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
-├── .gitignore
-├── index.html
 ├── package.json
-├── tailwind.config.cjs
-├── postcss.config.cjs
-└── vite.config.js
-
-````
-
----
-
-## 🛠️ Setup & Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/nischithkashyap98-code/Nischith_Portfolio_2.0.git
-   cd Nischith_Portfolio_2.0
-````
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Run the development server**
-
-   ```bash
-   npm run dev
-   ```
-
-4. **Build for production**
-
-   ```bash
-   npm run build
-   ```
-
-5. **Preview the build**
-
-   ```bash
-   npm run preview
-   ```
-
----
-
-## 📦 Deployment (Netlify)
-
-1. Visit [Netlify](https://www.netlify.com/).
-2. Click **“New Site from Git”**.
-3. Connect your **GitHub account**.
-4. Choose the repo `Nischith_Portfolio_2.0`.
-5. Build Command:
-
-   ```
-   npm run build
-   ```
-
-   Publish Directory:
-
-   ```
-   dist
-   ```
-6. Click **Deploy** 🚀
-
----
-
-## 📁 Projects Included
-
-| Project                       | Description                                                                       | Link                                                                    |
-| ----------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **System Pulse**              | Real-time Python-based system monitor built with Tkinter, Matplotlib, and psutil. | [View on GitHub](https://github.com/nischithkashyap98-code/SystemPulse) |
-| **Contentor**                 | A full-stack eBook platform for authors and readers (MERN stack).                 | [View Project](#)                                                       |
-| **AutoFlow (DevOps Project)** | CI/CD pipeline with Docker, AWS, and GitHub Actions.                              | [View Project](#)                                                       |
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** — you’re free to use, modify, and share it for educational or professional purposes.
-
----
-
-## 💬 Contact
-
-<p align="center">
-📧 <a href="mailto:nischithkashyap98@gmail.com">nischithkashyap98@gmail.com</a>  
-<br/>
-💼 <a href="https://www.linkedin.com/in/nischith-kashyap-s-aa413a389" target="_blank">LinkedIn</a> • 
-💻 <a href="https://github.com/nischithkashyap98-code" target="_blank">GitHub</a> • 
-🌐 <a href="https://nischithkashyap.netlify.app" target="_blank">Portfolio</a>
-</p>
-
----
-
-<p align="center">
-  <b>Crafted with ❤️ by Nischith Kashyap S</b><br/>
-  <sub>Software Engineer | DevOps Engineer | Mechanical Innovator</sub>
-</p>
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
 ```
 
 ---
+
+## ⚙️ **Installation & Setup**
+
+1️⃣ **Clone the repository**
+
+```bash
+git clone https://github.com/nischithkashyap98-code/Nischith_Portfolio_2.0.git
+cd Nischith_Portfolio_2.0
+```
+
+2️⃣ **Install dependencies**
+
+```bash
+npm install
+```
+
+3️⃣ **Run development server**
+
+```bash
+npm run dev
+```
+
+4️⃣ **Build for production**
+
+```bash
+npm run build
+```
+
+5️⃣ **Deploy to Netlify**
+
+```bash
+netlify deploy --prod
+```
+
+---
+
+## 🧩 **Featured Projects**
+
+| Project                         | Description                                                     |
+| ------------------------------- | --------------------------------------------------------------- |
+| **Contentor**                   | Full-stack eBook platform with dynamic publishing tools.        |
+| **CloudOps Pipeline**           | CI/CD automation with AWS and Docker, visualized pipeline flow. |
+| **Smart Tyre Inflation System** | Mechanical innovation for automated air pressure optimization.  |
+| **Smart Pulse**                 | Real-time analytics dashboard with pulse line sensors.          |
+
+---
+
+## 🏅 **Certifications**
+
+* Full-Stack Web Development – KodNest, Bengaluru
+* Cloud & DevOps Fundamentals – Self Learning
+* AWS Cloud Practitioner – In Progress
+
+---
+
+## 🤝 **Connect with Me**
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/nischith-kashyap-s-aa413a389" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/nischithkashyap98-code" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:nischithkashyap98@gmail.com">
+    <img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://nischithkashyap.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-%23b8912b.svg?style=for-the-badge&logo=netlify&logoColor=white" />
+  </a>
+</p>
+
+---
+
+## 🪄 **Author**
+
+**Nischith Kashyap S**
+Software Engineer | DevOps Engineer | Mechanical Innovator
+
+Crafted with precision, creativity, and futuristic design ✨
+
+---
+
+## 📜 **License**
+
+This project is open-source and free to use for personal or educational portfolios.
+
+---
+
