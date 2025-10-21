@@ -12,11 +12,6 @@ Elegant dark/light theming, glassmorphism aesthetics, and smooth transitions del
 
 🔗 [Visit Portfolio Website](https://nischithkashyap.netlify.app/)
 
----
-
-### 🖼️ **Project Banner**
-
-![Nischith Portfolio 2.0 Banner](./public/assets/banner.png)
 
 ---
 
